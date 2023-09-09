@@ -1,7 +1,7 @@
 # TeslaPriceScraper 
 ### Get the lowest Tesla inventory price by using this Tesla Price Scraper python script
 
-Please use my referral link if you find this script helpful in any way! =)
+Please consider using my referral link if you find this script helpful in any way! =)
 
 ##### Referral link: https://ts.la/adrian371736
 #### Inventory referral, model:
@@ -20,17 +20,17 @@ Y : https://www.tesla.com/inventory/new/my?TRIM=LRAWD&arrangeby=plh&zip=95132&ra
 
    Download chromedriver (and extract it into folder. Note this location/place it into desired location!):
 
-      Check chrome version: Settings>About Chrome. For example, Version 118.0.5951.0 (Official Build) dev (64-bit). Note the "118" in this case.
+   Check chrome version: Settings>About Chrome. For example, Version 118.0.5951.0 (Official Build) dev (64-bit). Note the "118" in this case.
 
-      Then go to https://chromedriver.chromium.org/downloads or https://googlechromelabs.github.io/chrome-for-testing/
+   Then go to https://chromedriver.chromium.org/downloads or https://googlechromelabs.github.io/chrome-for-testing/
 
-      Download "chromedriver" binary of win64 version 118... (for example).
+   Download "chromedriver" binary of win64 version 118... (for example).
 
 ####   Mac:
 
    Install chromedriver using brew,
 
-      Install brew: https://sourabhbajaj.com/mac-setup/Homebrew/ . After that,
+   Install brew: https://sourabhbajaj.com/mac-setup/Homebrew/ . After that,
 
       brew install --cask chromedriver
 #### 3. Install Python3 on your machine
