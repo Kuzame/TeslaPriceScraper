@@ -1,5 +1,6 @@
 #
 # TeslaPriceScraper 
+*Note: Confirmed working as of September 2023*
 ### Get the lowest Tesla inventory price by using this Tesla Price Scraper python script
 
 Please consider using my referral link if you find this script helpful in any way! =)
