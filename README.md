@@ -9,11 +9,11 @@ Please consider using my referral link if you find this script helpful in any wa
 #### Inventory referral, model:
 S : https://www.tesla.com/inventory/new/ms?arrangeby=plh&zip=95132&range=0&referral=adrian371736
 
-3 : https://www.tesla.com/inventory/new/m3?TRIM=LRAWD&arrangeby=plh&zip=95132&range=0&referral=adrian371736
+3 : https://www.tesla.com/inventory/new/m3?arrangeby=plh&zip=95132&range=0&referral=adrian371736
 
 X : https://www.tesla.com/inventory/new/mx?arrangeby=plh&zip=95132&range=0&referral=adrian371736
 
-Y : https://www.tesla.com/inventory/new/my?TRIM=LRAWD&arrangeby=plh&zip=95132&range=0&referral=adrian371736
+Y : https://www.tesla.com/inventory/new/my?arrangeby=plh&zip=95132&range=0&referral=adrian371736
 
 #
 # First Time Setup instructions
