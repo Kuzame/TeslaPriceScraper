@@ -1,17 +1,17 @@
 # TeslaPriceScraper 
 ### Get the lowest Tesla inventory price by using this Tesla Price Scraper python script
 
-Please use my referral code if you find this program helpful in any way! =)
+Please use my referral link if you find this script helpful in any way! =)
 
-#### Referral: https://ts.la/adrian371736
-##### Inventory referral, model:
-S: https://www.tesla.com/inventory/new/ms?arrangeby=plh&zip=95132&range=0&referral=adrian371736
+##### Referral link: https://ts.la/adrian371736
+#### Inventory referral, model:
+S : https://www.tesla.com/inventory/new/ms?arrangeby=plh&zip=95132&range=0&referral=adrian371736
 
-3: https://www.tesla.com/inventory/new/m3?TRIM=LRAWD&arrangeby=plh&zip=95132&range=0&referral=adrian371736
+3 : https://www.tesla.com/inventory/new/m3?TRIM=LRAWD&arrangeby=plh&zip=95132&range=0&referral=adrian371736
 
-X: https://www.tesla.com/inventory/new/mx?arrangeby=plh&zip=95132&range=0&referral=adrian371736
+X : https://www.tesla.com/inventory/new/mx?arrangeby=plh&zip=95132&range=0&referral=adrian371736
 
-Y: https://www.tesla.com/inventory/new/my?TRIM=LRAWD&arrangeby=plh&zip=95132&range=0&referral=adrian371736
+Y : https://www.tesla.com/inventory/new/my?TRIM=LRAWD&arrangeby=plh&zip=95132&range=0&referral=adrian371736
 
 ---------------------------------------------------------------------
 # First Time Setup instructions
@@ -32,7 +32,6 @@ Y: https://www.tesla.com/inventory/new/my?TRIM=LRAWD&arrangeby=plh&zip=95132&ran
 
       Install brew: https://sourabhbajaj.com/mac-setup/Homebrew/ . After that,
 
-      ```
       brew install --cask chromedriver
 #### 3. Install Python3 on your machine
 
