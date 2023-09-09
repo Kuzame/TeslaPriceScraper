@@ -6,14 +6,14 @@
 Please consider using my referral link if you find this script helpful in any way! =)
 
 ##### Referral link: https://ts.la/adrian371736
-#### Inventory referral, model:
-S : https://www.tesla.com/inventory/new/ms?arrangeby=plh&zip=95132&range=0&referral=adrian371736
+#### Inventory link referral:
+Model **S** : https://www.tesla.com/inventory/new/ms?arrangeby=plh&zip=95132&range=0&referral=adrian371736
 
-3 : https://www.tesla.com/inventory/new/m3?arrangeby=plh&zip=95132&range=0&referral=adrian371736
+Model **3** : https://www.tesla.com/inventory/new/m3?arrangeby=plh&zip=95132&range=0&referral=adrian371736
 
-X : https://www.tesla.com/inventory/new/mx?arrangeby=plh&zip=95132&range=0&referral=adrian371736
+Model **X** : https://www.tesla.com/inventory/new/mx?arrangeby=plh&zip=95132&range=0&referral=adrian371736
 
-Y : https://www.tesla.com/inventory/new/my?arrangeby=plh&zip=95132&range=0&referral=adrian371736
+Model **Y** : https://www.tesla.com/inventory/new/my?arrangeby=plh&zip=95132&range=0&referral=adrian371736
 
 #
 # First Time Setup instructions
