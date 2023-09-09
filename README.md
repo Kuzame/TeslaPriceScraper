@@ -17,7 +17,8 @@ Y : https://www.tesla.com/inventory/new/my?TRIM=LRAWD&arrangeby=plh&zip=95132&ra
 #
 # First Time Setup instructions
 #### 1. Install Google Chrome
-#### 2. Windows:
+#### 2. Download/Install Chromedriver
+#### Windows:
 
    Download chromedriver (and extract it into folder. Note this location/place it into desired location!):
 
@@ -34,9 +35,9 @@ Y : https://www.tesla.com/inventory/new/my?TRIM=LRAWD&arrangeby=plh&zip=95132&ra
    Install brew: https://sourabhbajaj.com/mac-setup/Homebrew/ . After that,
 
       brew install --cask chromedriver
-#### 3. Install Python3 on your machine
+#### 3. Install Python3 on your machine (such as https://www.python.org/downloads/ )
 
-   You need to pip install following libraries, enter the following on your command prompt/terminal:
+   After installing Python3, you need to pip install following libraries, enter the following on your command prompt/terminal:
 
       pip3 install pushbullet.py
 
@@ -56,6 +57,13 @@ Y : https://www.tesla.com/inventory/new/my?TRIM=LRAWD&arrangeby=plh&zip=95132&ra
 #
 # How to use 
 1. After finished with "First Time Setup instructions", modify/customize your input on file "userinput.py". This is the only file you ever need to modify.
-2. For your convenience, you can view your result logs.history on carlist.txt/carlist-json.txt file that will be created in this same directory.
-3. Tips: Highly suggested that you have your browser Autofill ready, so you can purchase it in less than 1min the moment you get notification from here.
+2. In case you don't know how to run the python, you can either (Assuming you are done with userinput as well)
+   
+   On Command Prompt/Terminal, cd (change directory) into where you put these files, then input:
+      ```
+      python3 TeslaPriceScraper.py
+      ```
+   or right click the TeslaPriceScraper.py file on the folder, and run with Python (program that you installed)
+4. For your convenience, you can view your result/logs history on carlist.txt/carlist-json.txt file that will be created in your same working directory.
+5. Tips: Highly suggested that you have your browser Autofill ready, so you can purchase it in less than 1min the moment you get notification from here.
 #
