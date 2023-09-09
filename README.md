@@ -1,3 +1,4 @@
+#
 # TeslaPriceScraper 
 ### Get the lowest Tesla inventory price by using this Tesla Price Scraper python script
 
@@ -13,7 +14,7 @@ X : https://www.tesla.com/inventory/new/mx?arrangeby=plh&zip=95132&range=0&refer
 
 Y : https://www.tesla.com/inventory/new/my?TRIM=LRAWD&arrangeby=plh&zip=95132&range=0&referral=adrian371736
 
----------------------------------------------------------------------
+#
 # First Time Setup instructions
 #### 1. Install Google Chrome
 #### 2. Windows:
@@ -52,9 +53,9 @@ Y : https://www.tesla.com/inventory/new/my?TRIM=LRAWD&arrangeby=plh&zip=95132&ra
    
    You will need this key for userinput.py file
 
----------------------------------------------------------------------
+#
 # How to use 
 1. After finished with "First Time Setup instructions", modify/customize your input on file "userinput.py". This is the only file you ever need to modify.
 2. For your convenience, you can view your result logs.history on carlist.txt/carlist-json.txt file that will be created in this same directory.
 3. Tips: Highly suggested that you have your browser Autofill ready, so you can purchase it in less than 1min the moment you get notification from here.
-------------------------------------------------------------------
+#
