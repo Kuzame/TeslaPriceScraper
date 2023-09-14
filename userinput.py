@@ -18,8 +18,9 @@ PushBulletAPIkey = "o.test123-replace-with-your-key"
 # Enter your model. 1 letter only: "S", "3", "X", "Y"
 model = "Y"
 
-# Your zip code (it will search within your whole state by default currently)
+# Enter your zip code
 zipCode = 95132
+zipCodeRange = 0 # Leave at 0 to search within your whole state by default currently, or 300 for 300 miles within your zip code for example
 
 # Set the price threshold! The script will scrape the price below this number!
 priceThreshold = 47500
@@ -45,11 +46,11 @@ interiorColorSorX = "INTERIOR=CREAM,WHITE,BLACK" # Options: INTERIOR=CREAM,WHITE
 # IF you need more advanced search, such as different multiple interior/exterior color, etc, carefully modify the whole link below
 
 models = {
-    "S": "https://www.tesla.com/inventory/new/ms?TRIM={}&{}&arrangeby=plh&zip={}&range=0&referral=adrian371736".format(modelSTrim,interiorColorSorX, zipCode) ,
-    "3": "https://www.tesla.com/inventory/new/m3?TRIM={}&{}&arrangeby=plh&zip={}&range=0&referral=adrian371736".format(model3orYTrim,interiorColor3orY, zipCode) ,
-    "X": "https://www.tesla.com/inventory/new/mx?TRIM={}&{}&arrangeby=plh&zip={}&range=0&referral=adrian371736".format(modelXTrim,interiorColorSorX, zipCode) ,
-    "Y": "https://www.tesla.com/inventory/new/my?TRIM={}&{}&arrangeby=plh&zip={}&range=0&referral=adrian371736".format(model3orYTrim,interiorColor3orY, zipCode)
+    "S": "https://www.tesla.com/inventory/new/ms?TRIM={}&{}&arrangeby=plh&zip={}&range={}".format(modelSTrim,interiorColorSorX, zipCode, zipCodeRange) ,
+    "3": "https://www.tesla.com/inventory/new/m3?TRIM={}&{}&arrangeby=plh&zip={}&range={}".format(model3orYTrim,interiorColor3orY, zipCode, zipCodeRange) ,
+    "X": "https://www.tesla.com/inventory/new/mx?TRIM={}&{}&arrangeby=plh&zip={}&range={}".format(modelXTrim,interiorColorSorX, zipCode, zipCodeRange) ,
+    "Y": "https://www.tesla.com/inventory/new/my?TRIM={}&{}&arrangeby=plh&zip={}&range={}".format(model3orYTrim,interiorColor3orY, zipCode, zipCodeRange)
   # for example, if you want to replace "Y" below with black & white interior, replace the whole string & delete .format(zipCode) to be like below:
-  # "Y": "https://www.tesla.com/inventory/new/my?TRIM=LRAWD&INTERIOR=PREMIUM_WHITE&arrangeby=plh&zip=95132&range=0&referral=adrian371736"
+  # "Y": "https://www.tesla.com/inventory/new/my?TRIM=LRAWD&INTERIOR=PREMIUM_WHITE&arrangeby=plh&zip=95132&range=0"
 }
 
