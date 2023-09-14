@@ -40,8 +40,8 @@ modelSTrim = "MSAWD"
 modelXTrim = "MXAWD"
 
 # !Advanced config!
-interiorColor3orY = "" # Options: INTERIOR=PREMIUM_WHITE,PREMIUM_BLACK . Select 1/multiple option, delete to blank "" for no preference
-interiorColorSorX = "" # Options: INTERIOR=CREAM,WHITE,BLACK . Select 1/multiple option, delete blank "" for no preference
+interiorColor3orY = "INTERIOR=PREMIUM_WHITE,PREMIUM_BLACK" # Options: INTERIOR=PREMIUM_WHITE,PREMIUM_BLACK . Select 1/multiple option, delete to blank "" for no preference
+interiorColorSorX = "INTERIOR=CREAM,WHITE,BLACK" # Options: INTERIOR=CREAM,WHITE,BLACK . Select 1/multiple option, delete blank "" for no preference
 # IF you need more advanced search, such as different multiple interior/exterior color, etc, carefully modify the whole link below
 
 models = {
