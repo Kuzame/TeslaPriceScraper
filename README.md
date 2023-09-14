@@ -1,63 +1,80 @@
 #
-# TeslaPriceScraper 
+# About TeslaPriceScraper
+
 *Note: Confirmed working as of September 2023*
-### Get the lowest Tesla inventory price by using this Tesla Price Scraper python script
 
-Please consider using my referral link if you find this script helpful in any way! =)
+Have you ever found yourself endlessly browsing the Tesla inventory, only to spot fleeting price drops that vanish before you can react? Have you wondered, "If only I had the time to monitor this all day, how much could I save on my dream car?" I was in the same boat, tirelessly searching for discounts. That's when a friend gave me a simple yet brilliant idea: **why not create a script to monitor the price for you?**
 
-##### Inventory link referral: https://www.tesla.com/inventory/new/my?arrangeby=plh&zip=95132&range=0&referral=adrian371736
-##### Referral link: https://ts.la/adrian371736
+I'm excited to share this **TeslaPriceScraper** script with you! It's the result of countless hours of tinkering, fine-tuning, and finally, achieving success. Thanks to this script, I was able to secure MYLR $5,000+ inventory discount.
 
-#
-# First Time Setup instructions
-#### 1. Install Google Chrome
-#### 2. Download/Install Chromedriver
-#### Windows:
+I hope this script helps you snag amazing deals. If you find it valuable, please consider using my referral link below =) . Feel free to drop me a message on [Reddit](https://www.reddit.com/user/Kuzame) if you have any questions or if you happen to use my referral link! Happy savings!
 
-   Download chromedriver (and extract it into folder. Note this location/place it into desired location!):
+**Inventory referral link:** [Tesla Inventory](https://www.tesla.com/inventory/new/my?arrangeby=plh&zip=95132&range=0&referral=adrian371736)
 
-   Check chrome version: Settings>About Chrome. For example, Version 118.0.5951.0 (Official Build) dev (64-bit). Note the "118" in this case.
-
-   Then go to https://chromedriver.chromium.org/downloads or https://googlechromelabs.github.io/chrome-for-testing/
-
-   Download "chromedriver" binary of win64 version 118... (for example).
-
-####   Mac:
-
-   Install chromedriver using brew,
-
-   Install brew: https://sourabhbajaj.com/mac-setup/Homebrew/ . After that,
-
-      brew install --cask chromedriver
-#### 3. Install Python3 on your machine (such as https://www.python.org/downloads/ )
-
-   After installing Python3, you need to pip install following libraries, enter the following on your command prompt/terminal:
-
-      pip3 install pushbullet.py
-
-      pip3 install beautifulsoup4
-
-      pip3 install selenium
-
-      pip3 install lxml
-
-      pip3 install webdriver-manager
-#### 4. Register for PushBullet account ( www.pushbullet.com ). Install pushbullet on your phone to get live notification.
-
-   Obtained pushbullet API key: www.pushbullet.com > Settings > Account > Access Tokens, "Create Access Tokens"
-   
-   You will need this key for userinput.py file
+**Referral link:** [Tesla Referral](https://ts.la/adrian371736)
 
 #
-# How to use 
-1. After finished with "First Time Setup instructions", modify/customize your input on file "userinput.py". This is the only file you ever need to modify.
-2. To run the python script, you can either (Assuming you are done with userinput as well)
+# First Time Setup Instructions
+
+1. **Install Google Chrome**
    
-   On Command Prompt/Terminal, cd (change directory) into where you put these files, then input:
-      ```
-      python3 TeslaPriceScraper.py
-      ```
-   or right click the TeslaPriceScraper.py file on the folder, and run with Python (program that you installed)
-4. For your convenience, you can view your result/logs history on carlist.txt/carlist-json.txt file that will be created in your same working directory.
-5. Tips: Highly suggested that you have your browser Autofill ready, so you can purchase it in less than 1min the moment you get notification from here.
+2. **Download/Install Chromedriver**
+
+   **For Windows:**
+   - Download chromedriver and extract it into a folder. Note this location and place it in your desired location.
+   - Check your Chrome version by going to Settings > About Chrome. For example, Version 118.0.5951.0 (Official Build) dev (64-bit). Note the version number (e.g., "118" in this case).
+   - Visit [chromedriver.chromium.org/downloads](https://chromedriver.chromium.org/downloads) or [googlechromelabs.github.io/chrome-for-testing](https://googlechromelabs.github.io/chrome-for-testing/).
+   - Download the "chromedriver" binary for the win64 version that corresponds to your Chrome version.
+
+   **For Mac:**
+   - Install chromedriver using Homebrew:
+     - Install Homebrew from [sourabhbajaj.com/mac-setup/Homebrew/](https://sourabhbajaj.com/mac-setup/Homebrew/).
+     - After that, run the following command:
+     ```bash
+     brew install --cask chromedriver
+     ```
+
+3. **Install Python3 on your Machine**
+
+   - Download and install Python3 from [python.org/downloads](https://www.python.org/downloads/).
+
+   After installing Python3, you need to install the following libraries. Open your command prompt or terminal and run the following commands:
+
+   ```bash
+   pip3 install pushbullet.py
+   pip3 install beautifulsoup4
+   pip3 install selenium
+   pip3 install lxml
+   pip3 install webdriver-manager
+   ```
+   
+4. **Register for PushBullet Account**
+
+   - Visit [www.pushbullet.com](https://www.pushbullet.com) and create a free PushBullet account.
+   - Install the PushBullet app on your mobile device to receive live notifications.
+   - Obtain your PushBullet API key by following these steps:
+     - Visit [www.pushbullet.com](https://www.pushbullet.com) Settings > Account > Access Tokens.
+     - Click "Create Access Tokens" to generate your API key.
+     - You will need this API key for the `userinput.py` file.
+#
+# How to Use
+
+1. **First-Time Setup**: Start by following the "First Time Setup" instructions. Once completed, navigate to the "userinput.py" file. This is the only file you'll ever need to customize.
+
+2. **Running the Script**:
+   - Open your Command Prompt or Terminal.
+   - Use the `cd` command to navigate to the directory where you've placed these files.
+   - Run the script with Python 3 using the following command:
+     ```bash
+     python3 TeslaPriceScraper.py
+     ```
+
+   Alternatively, you can simply right-click the "TeslaPriceScraper.py" file in your folder and select "Run with Python" (assuming you have Python installed).
+
+3. **Viewing Results**:
+   - Your result and log history will be saved in "carlist.txt" and "carlist-json.txt" files in the same working directory for your convenience.
+
+4. **Tips for Quick Purchases**:
+   - We recommend having your browser's autofill feature ready to go. This way, you can make a purchase in less than a minute as soon as you receive a notification from this script.
+
 #
