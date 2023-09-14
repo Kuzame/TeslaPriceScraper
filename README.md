@@ -7,11 +7,11 @@ Have you ever found yourself endlessly browsing the Tesla inventory, only to spo
 
 I'm excited to share this **TeslaPriceScraper** script with you! It's the result of countless hours of tinkering, fine-tuning, and finally, achieving success. Thanks to this script, I was able to secure MYLR $5,000+ inventory discount.
 
-I hope this script helps you snag amazing deals. If you find it valuable, please consider using my referral link below =) . Feel free to drop me a message on [Reddit](https://www.reddit.com/user/Kuzame) if you have any questions or if you happen to use my referral link! Happy savings!
+I hope this script helps you snag amazing deals. If you find it valuable, please consider using my referral link below. Feel free to drop me a message on [Reddit](https://www.reddit.com/user/Kuzame) if you have any questions or if you happen to use my referral link! Happy savings!
 
-**Inventory referral link:** [Tesla Inventory](https://www.tesla.com/inventory/new/my?arrangeby=plh&zip=95132&range=0&referral=adrian371736)
+[Tesla Inventory Referral Link](https://www.tesla.com/inventory/new/my?arrangeby=plh&zip=95132&range=0&referral=adrian371736) *(You'll probably need this inventory link ready in your browser if you use my script =D )*
 
-**Referral link:** [Tesla Referral](https://ts.la/adrian371736)
+[Tesla General Referral Link](https://ts.la/adrian371736)
 
 #
 # First Time Setup Instructions
@@ -23,12 +23,12 @@ I hope this script helps you snag amazing deals. If you find it valuable, please
    **For Windows:**
    - Download chromedriver and extract it into a folder. Note this location and place it in your desired location.
    - Check your Chrome version by going to Settings > About Chrome. For example, Version 118.0.5951.0 (Official Build) dev (64-bit). Note the version number (e.g., "118" in this case).
-   - Visit [chromedriver.chromium.org/downloads](https://chromedriver.chromium.org/downloads) or [googlechromelabs.github.io/chrome-for-testing](https://googlechromelabs.github.io/chrome-for-testing/).
+   - Visit [chromedriver.chromium.org/downloads](https://chromedriver.chromium.org/downloads) or [googlechromelabs.github.io/chrome-for-testing](https://googlechromelabs.github.io/chrome-for-testing/)
    - Download the "chromedriver" binary for the win64 version that corresponds to your Chrome version.
 
    **For Mac:**
    - Install chromedriver using Homebrew:
-     - Install Homebrew from [sourabhbajaj.com/mac-setup/Homebrew/](https://sourabhbajaj.com/mac-setup/Homebrew/).
+     - Homebrew installation instruction [sourabhbajaj.com/mac-setup/Homebrew/](https://sourabhbajaj.com/mac-setup/Homebrew/)
      - After that, run the following command:
      ```bash
      brew install --cask chromedriver
@@ -36,7 +36,7 @@ I hope this script helps you snag amazing deals. If you find it valuable, please
 
 3. **Install Python3 on your Machine**
 
-   - Download and install Python3 from [python.org/downloads](https://www.python.org/downloads/).
+   - Download and install Python3 from [python.org/downloads](https://www.python.org/downloads/)
 
    After installing Python3, you need to install the following libraries. Open your command prompt or terminal and run the following commands:
 
