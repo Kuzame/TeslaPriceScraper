@@ -12,7 +12,7 @@ chromeLocationMac = "/Applications/Google Chrome Dev.app" #Edit if you're using 
 chromedriverLocation = r'C:\temp\chromedriver.exe' #NOTE: Please leave the 'r' before strings of your chromedriver location!
 
 #Enter your pushbullet API key. Obtained by: pushbullet.com > Settings > Account > Access Tokens, "Create Access Tokens"
-PushBulletAPIkey = "o.test12345"
+PushBulletAPIkey = "o.test123-replace-with-your-key"
 
 # ------------- CAR CONFIGURATION -----------
 # Enter your model. 1 letter only: "S", "3", "X", "Y"
@@ -40,8 +40,8 @@ modelSTrim = "MSAWD"
 modelXTrim = "MXAWD"
 
 # !Advanced config!
-interiorColor3orY = "INTERIOR=PREMIUM_WHITE" # Options: INTERIOR=PREMIUM_WHITE,PREMIUM_BLACK . Delete to blank "" for no preference
-interiorColorSorX = "INTERIOR=CREAM,WHITE,BLACK" # Options: INTERIOR=CREAM, WHITE, BLACK . Delete blank "" for no preference
+interiorColor3orY = "" # Options: INTERIOR=PREMIUM_WHITE,PREMIUM_BLACK . Select 1/multiple option, delete to blank "" for no preference
+interiorColorSorX = "" # Options: INTERIOR=CREAM,WHITE,BLACK . Select 1/multiple option, delete blank "" for no preference
 # IF you need more advanced search, such as different multiple interior/exterior color, etc, carefully modify the whole link below
 
 models = {
