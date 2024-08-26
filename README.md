@@ -1,7 +1,7 @@
 #
 # About TeslaPriceScraper
 
-*Note: Confirmed working as of September 2023*
+*Note: Confirmed working as of August 2024*
 
 Have you ever found yourself endlessly browsing the Tesla inventory, only to spot fleeting price drops that vanish before you can react? Have you wondered, "If only I had the time to monitor this all day, how much could I potentially save?" I was in the same boat, tirelessly searching for discounts. That's when a friend gave me a simple yet brilliant idea: **why not create a script to monitor the price for you?**
 
@@ -22,7 +22,7 @@ I hope this script helps you snag an amazing deal. If you find it valuable, plea
 
    **For Windows:**
    - Download chromedriver and extract it into a folder. Note this location and place it in your desired location.
-   - Check your Chrome version by going to Settings > About Chrome. For example, Version 118.0.5951.0 (Official Build) dev (64-bit). Note the version number (e.g., "118" in this case).
+   - Check your Chrome version by going to Settings > About Chrome. For example, Version 130.0.6669.2 (Official Build) dev (64-bit). Note the version number (e.g., "130" in this case).
    - Visit [chromedriver.chromium.org/downloads](https://chromedriver.chromium.org/downloads) or [googlechromelabs.github.io/chrome-for-testing](https://googlechromelabs.github.io/chrome-for-testing/)
    - Download the "chromedriver" binary for the win64 version that corresponds to your Chrome version.
 
