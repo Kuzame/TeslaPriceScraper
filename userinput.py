@@ -31,8 +31,8 @@ minTime = 60
 maxTime = 180
 
 # Tesla Trim:
-# For model 3 or Y. Enter "M3AWD" or "MYRWD" for base model 3 or Y, "LRAWD" for long range, "PAWD" for performance
-model3orYTrim = "LRAWD"
+# For model 3 or Y. Enter "M3AWD" or "MYRWD" for base model 3 or Y, "LRRWD" for long range RWD, "LRAWD" for long range AWD, "PAWD" for performance
+model3orYTrim = "LRRWD"
 
 # For model S. Enter "MSAWD" for base model S, "MSPLAID" for S Plaid
 modelSTrim = "MSAWD"
