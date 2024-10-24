@@ -1,7 +1,7 @@
 #
 # About TeslaPriceScraper
 
-*Note: Confirmed working as of August 2024*
+*Note: Confirmed working as of October 2024*
 
 Have you ever found yourself endlessly browsing the Tesla inventory, only to spot fleeting price drops that vanish before you can react? Have you wondered, "If only I had the time to monitor this all day, how much could I potentially save?" I was in the same boat, tirelessly searching for discounts. That's when a friend gave me a simple yet brilliant idea: **why not create a script to monitor the price for you?**
 
@@ -55,7 +55,7 @@ I hope this script helps you snag an amazing deal. If you find it valuable, plea
    - Obtain your PushBullet API key by following these steps:
      - Visit [www.pushbullet.com](https://www.pushbullet.com) Settings > Account > Access Tokens.
      - Click "Create Access Tokens" to generate your API key.
-     - You will need this API key for the `userinput.py` file.
+     - You will need this API key for the `userinput.py` file. Please replace the value of PushBulletAPIkey.
 #
 # How to Use
 
